@@ -27,3 +27,5 @@ El llenguatge de marques més conegut és l'HTML (HyperText Markup Language), qu
 Aquest fragment de codi defineix una pàgina web bàsica amb un títol, un paràgraf i un enllaç. Les etiquetes com `<h1>`, `<p>` i `<a>` s'utilitzen per estructurar el contingut del document.
 
 En resum, un llenguatge de marques, com HTML o XML, és un tipus de llenguatge utilitzat per marcar o etiquetar dades amb una estructura jeràrquica a través de tags o etiquetes.
+
+https://codepen.io/Dentz/pen/wMYRXY
