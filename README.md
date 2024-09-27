@@ -28,4 +28,6 @@ Aquest fragment de codi defineix una pàgina web bàsica amb un títol, un parà
 
 En resum, un llenguatge de marques, com HTML o XML, és un tipus de llenguatge utilitzat per marcar o etiquetar dades amb una estructura jeràrquica a través de tags o etiquetes.
 
-https://codepen.io/Dentz/pen/wMYRXY
+[Reconeixement de les caracteristiques de llenguatges de marques](./UF01/01-reconeixement-de-les-característiques-de-llenguatges-de-marques/README.md)
+
+[Utilitzacio del llenguatge de marques en entorns web](./UF01/02-utilitzacio-llenguatge-de-marques-en-entorns-web/README.md)
