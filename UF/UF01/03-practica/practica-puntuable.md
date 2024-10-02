@@ -40,32 +40,28 @@ Aquesta pràctica consisteix en crear la **capçalera d'una pàgina web** utilit
 
 ### Capçalera HTML5
 
-1. **Capçalera HTML5**:
-   - Un logo personal o de referència, col·locat a la part esquerra de la capçalera.
-   - Botons amb icones de xarxes socials. El botó de **LinkedIn** és obligatori i ha de redirigir a la pàgina de LinkedIn en una **pestanya nova** (`target="_blank"`). Pots afegir més botons de xarxes socials si ho desitges (Facebook, Twitter, etc.).
-   - Una barra de navegació amb enllaços a les següents seccions:
-     - **Inici**: Enllaç a la pàgina principal (actual).
-     - **Presentació**: Enllaç a la pàgina de presentació professional. Has de crear aquesta pàgina i incloure una descripció breu del que estudies i a què et dediques.
-     - **Pràctiques**: Enllaç a la pàgina on llistaràs totes les pràctiques que facis a les assignatures de tutoria, marcatge i fonaments.
-     - **CV**: No cal crear aquesta pàgina en aquesta pràctica, però el botó ha de ser present a la barra de navegació.
-     - **Contacte**: Crear una pàgina de contacte. Pots deixar-la amb un missatge simple indicant que està en construcció.
+- Un logo personal o de referència.
+- Botons amb icones de xarxes socials. El botó de **LinkedIn** és obligatori i ha de redirigir a la pàgina de LinkedIn en una **pestanya nova** (`target="_blank"`). Pots afegir més botons de xarxes socials si ho desitges (Facebook, Twitter, etc.).
+- Una barra de navegació amb enllaços a les següents seccions:
+  - **Inici**: Enllaç a la pàgina principal (actual).
+  - **Presentació**: Enllaç a la pàgina de presentació professional. Has de crear aquesta pàgina i incloure una descripció breu del que estudies i a què et dediques.
+  - **Pràctiques**: Enllaç a la pàgina on llistaràs totes les pràctiques que facis a les assignatures de tutoria, marcatge i fonaments.
+  - **CV**: No cal crear aquesta pàgina en aquesta pràctica, però el botó ha de ser present a la barra de navegació.
+  - **Contacte**: Crear una pàgina de contacte. Pots deixar-la amb un missatge simple indicant que està en construcció.
 
 ### Pàgines
 
-2. **Pàgines**:
-   - **Presentació**: Aquesta pàgina ha de tenir una descripció professional de tu mateix, explicant què estàs estudiant, els teus interessos i si estàs treballant en algun projecte.
-   - **Pràctiques**: Aquesta pàgina ha de contenir un enllaç a totes les pràctiques que aneu fent a les assignatures de **Tutoria**, **Marcatge** i **Fonaments**. Pots utilitzar una llista no ordenada (`<ul>`) amb els títols i enllaços a les pràctiques.
-   - **Contacte**: Pots deixar aquesta pàgina en construcció o afegir-hi un text indicant que estàs desenvolupant la secció.
+- **Presentació**: Aquesta pàgina ha de tenir una descripció professional de tu mateix, explicant què estàs estudiant, els teus interessos i si estàs treballant en algun projecte.
+- **Pràctiques**: Aquesta pàgina ha de contenir un enllaç a totes les pràctiques que aneu fent a les assignatures de **Tutoria**, **Marcatge** i **Fonaments**. Pots utilitzar una llista no ordenada (`<ul>`) amb els títols i enllaços a les pràctiques.
+- **Contacte**: Pots deixar aquesta pàgina en construcció o afegir-hi un text indicant que estàs desenvolupant la secció.
 
 ### Navegació sense contingut
 
-3. **Navegació sense contingut**:
-   - Els botons de navegació cap a les pàgines **CV** i **Contacte** han d'estar presents, encara que no cal que omplis el contingut de les pàgines en aquesta pràctica. Només es crearà la pàgina **Presentació** i la de **Pràctiques**.
+- Els botons de navegació cap a les pàgines **CV** i **Contacte** han d'estar presents, encara que no cal que omplis el contingut de les pàgines en aquesta pràctica. Només es crearà la pàgina **Presentació** i la de **Pràctiques**.
 
 ### Validació
 
-4. **Validació**:
-   - Valida el teu codi HTML5 amb el [W3C HTML Validator](https://validator.w3.org/) per assegurar-te que compleix els estàndards.
+- Valida el teu codi HTML5 amb el [W3C HTML Validator](https://validator.w3.org/) per assegurar-te que compleix els estàndards.
 
 ## Esquema de la capçalera
 
@@ -114,7 +110,7 @@ A continuació es presenta l'esquema complet de la capçalera amb la col·locaci
 
 ## Esquema de l'estructura d'arxius
 
-L'estructura d'arxius del projectevseria la següent:
+L'estructura d'arxius del projecte a client (nostre màquina) seria la següent:
 
 ```
 practica01/
@@ -167,6 +163,14 @@ touch UF01/practica01/index.html
 touch UF01/practica01/presentacio.html
 touch UF01/practica01/practiques.html
 ```
+
+La comanda **touch** en un terminal (particularment en sistemes basats en Unix com Linux o macOS) serveix per crear fitxers buits si aquests no existeixen ja. També pot actualitzar la data i l'hora de modificació d'un fitxer existent sense alterar el contingut.
+
+Per exemple:
+
+Si el fitxer index.html no existeix, touch index.html crearà un fitxer buit amb aquest nom.
+Si index.html ja existeix, la comanda només actualitzarà la data i l'hora de l'última modificació del fitxer.
+Així doncs, touch és útil per crear fitxers o actualitzar la seva marca de temps.
 
 ### 3. Inicialitzar el repositori Git i pujar els canvis a GitHub
 
