@@ -4,27 +4,28 @@
 
 - [Utilització de llenguatges de marques en entorns web](#utilització-de-llenguatges-de-marques-en-entorns-web)
   - [Índex](#índex)
-  - [1. Estàndards web. Versions. Classificació.](#1-estàndards-web-versions-classificació)
-    - [Versions:](#versions)
-    - [Classificació:](#classificació)
-    - [Exemples:](#exemples)
+  - [1. Estàndards web. Versions. Classificació](#1-estàndards-web-versions-classificació)
+    - [Versions](#versions)
+    - [Classificació](#classificació)
+    - [Exemples](#exemples)
   - [2. Estructura d'un document HTML](#2-estructura-dun-document-html)
-    - [Exemple d'estructura bàsica:](#exemple-destructura-bàsica)
+    - [Exemple d'estructura bàsica](#exemple-destructura-bàsica)
   - [3. Identificació d'etiquetes i atributs d'HTML](#3-identificació-detiquetes-i-atributs-dhtml)
-    - [Tipus d'etiquetes:](#tipus-detiquetes)
-    - [Atributs comuns:](#atributs-comuns)
-    - [Exemples:](#exemples-1)
+    - [Tipus d'etiquetes](#tipus-detiquetes)
+    - [Atributs comuns](#atributs-comuns)
+    - [Exemples](#exemples-1)
   - [4. Eines de disseny web](#4-eines-de-disseny-web)
-    - [Exemple d'editor de codi:](#exemple-deditor-de-codi)
+    - [Exemple d'editor de codi](#exemple-deditor-de-codi)
   - [5. Fulles d'estil (CSS)](#5-fulles-destil-css)
-    - [Tipus de CSS:](#tipus-de-css)
-    - [Exemple de CSS extern (estil.css):](#exemple-de-css-extern-estilcss)
+    - [Tipus de CSS](#tipus-de-css)
+    - [Exemple de CSS extern (estil.css)](#exemple-de-css-extern-estilcss)
   - [6. Validació de documents HTML i CSS](#6-validació-de-documents-html-i-css)
-    - [Eines de validació:](#eines-de-validació)
-    - [Exemple de validació:](#exemple-de-validació)
+    - [Eines de validació](#eines-de-validació)
+    - [Exemple de validació](#exemple-de-validació)
   - [7. Llenguatges de marques per a la sindicació de continguts](#7-llenguatges-de-marques-per-a-la-sindicació-de-continguts)
-    - [Característiques de RSS i Atom:](#característiques-de-rss-i-atom)
-    - [Exemple d'un feed RSS:](#exemple-dun-feed-rss)
+    - [Característiques de RSS i Atom](#característiques-de-rss-i-atom)
+    - [Exemple d'un feed RSS](#exemple-dun-feed-rss)
+  - [8. Jerarquia HTML](#8-jerarquia-html)
 
 ---
 
@@ -232,5 +233,9 @@ La **sindicació de continguts** és una tècnica que permet que els usuaris acc
   </channel>
 </rss>
 ```
+
+## 8. Jerarquia HTML
+
+[Introduction to HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals)
 
 ---
