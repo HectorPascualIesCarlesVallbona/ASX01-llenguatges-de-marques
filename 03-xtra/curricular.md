@@ -49,6 +49,31 @@
 5.3 Creació i utilització de plantilles. Eines i depuració.
 5.4 Conversió entre diferents formats de documents.
 
+### pràctiques
+
+#### 03
+
+- 01: interacció amb el DOM i selecció d'elements
+- 02: creació i modificació d'elements dinàmics
+- 03: manipulació d'estils i efectes
+
+#### 04
+
+- 01: validació de documents XML amb XSD
+- 02: conversió de documents XML a JSON: amb llibreria de tercer en la pràctica o online
+- 03: associació de documents XML amb un Esquema XSD i Validació
+
+#### 05
+
+- 01: conversió de documents JSON a XML
+- 02: creació d'especificacions de conversió entre formats
+- 03: conversió i validació automàtica de documents
+
+#### 06
+
+- 01: extracció de dades d'una API pública i visualització en una pàgina web
+- 02: enviament de dades a un servei de tercers (formulari de contacte)
+
 ## UF03
 
 6. Emmagatzematge d'informació:
