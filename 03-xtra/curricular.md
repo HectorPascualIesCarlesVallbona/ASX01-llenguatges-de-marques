@@ -19,6 +19,15 @@
 2.6 Validació de documents HTML i CSS.
 2.7 Llenguatges de marques per a la sindicació de continguts.
 
+### pràctiques
+
+- 01: crear capçalera html (jo demo)
+- 02: crear body: nav + section + aside. Section amb un formulari
+- 03: crear footer
+- 04: afegir estils a capçalera (jo demo)
+- 05: afegir estils a elements body
+- 06: afegir estils a footer
+
 ## UF02
 
 3. Manipulació de documents Web:
