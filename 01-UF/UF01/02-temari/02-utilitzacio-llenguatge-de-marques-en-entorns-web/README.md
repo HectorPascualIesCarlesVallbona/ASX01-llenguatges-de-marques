@@ -25,7 +25,8 @@
   - [7. Llenguatges de marques per a la sindicació de continguts](#7-llenguatges-de-marques-per-a-la-sindicació-de-continguts)
     - [Característiques de RSS i Atom](#característiques-de-rss-i-atom)
     - [Exemple d'un feed RSS](#exemple-dun-feed-rss)
-  - [8. Jerarquia HTML](#8-jerarquia-html)
+  - [8. Resum etiquetes (tags) que componen un arxiu html](#8-resum-etiquetes-tags-que-componen-un-arxiu-html)
+  - [9. Jerarquia HTML](#9-jerarquia-html)
 
 ---
 
@@ -234,7 +235,11 @@ La **sindicació de continguts** és una tècnica que permet que els usuaris acc
 </rss>
 ```
 
-## 8. Jerarquia HTML
+## 8. Resum etiquetes (tags) que componen un arxiu html
+
+[Elements HTML](https://developer.mozilla.org/es/docs/Web/HTML/Element)
+
+## 9. Jerarquia HTML
 
 [Introduction to HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals)
 
