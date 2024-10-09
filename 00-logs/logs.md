@@ -13,3 +13,7 @@
   - [] explicar estructura carpetes pràctica
   - [] explicar pràctica en sí
 - [] dubtes presencial o per e-mail
+
+# 09102024
+
+- pràctica01 capçalera explicar amb demo, no acabada
