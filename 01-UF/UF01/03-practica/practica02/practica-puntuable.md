@@ -39,14 +39,13 @@ En aquesta pràctica, afegirem una estructura HTML dins del cos de la pàgina (`
 
 El document ha de contenir els següents elements dins del `<body>`:
 
-1. **Nav**: Un menú de navegació amb enllaços a diferents seccions del lloc web.
-2. **Section (Form)**: Un formulari senzill que inclogui:
+1. **Section (Form)**: Un formulari senzill que inclogui:
    - Camp de text per al **nom**.
    - Camp de text per al **correu electrònic**.
    - Un menú desplegable amb diverses opcions per triar **motiu de consulta**.
    - Un camp de text gran (**textarea**) per a **missatge**.
    - Un botó per **enviar** el formulari.
-3. **Aside**: Una secció lateral amb informació addicional. Per exemple, pots incloure-hi una llista d'articles relacionats, notes d'interès o altres elements complementaris.
+2. **Aside**: Una secció lateral amb informació addicional. Per exemple, pots incloure-hi una llista d'articles relacionats, notes d'interès o altres elements complementaris.
 
 ### Validació
 
