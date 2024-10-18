@@ -59,9 +59,7 @@ Aquí tens un diagrama ASCII de com hauria de quedar l'estructura general dins d
 ```
 <body>
   +-----------------------------------------------------------+
-  |                         <nav>                              |
-  | --------------------------------------------------------- |
-  | [Inici] [Serveis] [Sobre nosaltres] [Contacte]             |
+  |                 header fet a practica01                   |
   +-----------------------------------------------------------+
   
   +-----------------------------------------------------------+
@@ -70,7 +68,7 @@ Aquí tens un diagrama ASCII de com hauria de quedar l'estructura general dins d
   |   |                    <form>                         |    |
   |   |  Nom:         [________________________]          |    |
   |   |  Correu:      [________________________]          |    |
-  |   |  Motiu:       [------------------------v]         |    |
+  |   |  Motiu:       [------------------------]          |    |
   |   |  Missatge:    [________________________]          |    |
   |   |               [________________________]          |    |
   |   |               [________________________]          |    |
@@ -81,7 +79,7 @@ Aquí tens un diagrama ASCII de com hauria de quedar l'estructura general dins d
   +-----------------------------------------------------------+
   
   +---------------------------<aside>--------------------------+
-  |        Articles relacionats                                 |
+  |     Articles relacionats                                 |
   |   - 5 consells per millorar la productivitat                |
   |   - Com gestionar el temps eficientment                     |
   |   - Eines per treballar des de casa                         |
