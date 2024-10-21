@@ -16,7 +16,7 @@
   - [Explicació de l'etiqueta `<section>`](#explicació-de-letiqueta-section)
     - [Característiques de `<section>`](#característiques-de-section)
     - [Exemple de `<section>` amb un formulari](#exemple-de-section-amb-un-formulari)
-  - [Explicació de l'etiqueta \`\<](#explicació-de-letiqueta-)
+  - [Explicació de l'etiqueta `<form>`](#explicació-de-letiqueta-form)
     - [Característiques de `<form>`](#característiques-de-form)
     - [Exemple bàsic de `<form>`](#exemple-bàsic-de-form)
   - [Validació](#validació-1)
@@ -181,9 +181,7 @@ L'etiqueta **`<section>`** s'utilitza per a definir una secció o part del docum
 
 En aquest exemple, el **`<section>`** conté un formulari de contacte. Aquesta secció té un títol i agrupa tot el contingut relacionat amb el formulari en un sol bloc temàtic, facilitant la seva identificació i comprensió dins del document.
 
-## Explicació de l'etiqueta `<
-
-form>`
+## Explicació de l'etiqueta `<form>`
 
 L'etiqueta **`<form>`** defineix un formulari HTML per a la recopilació d'informació de l'usuari. Aquesta informació es pot enviar a un servidor web o processar-se localment amb JavaScript.
 
