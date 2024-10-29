@@ -17,3 +17,19 @@
 # 09102024
 
 - pràctica01 capçalera explicar amb demo, no acabada
+
+# 30102024
+
+- explicar examen
+  - [] no internet, sí apunts
+  - [] hash sha256
+  - repàs
+    - [] head
+    - [] header
+    - [] H1
+    - [] nav
+    - [] section
+    - [] footer
+    - [] ul > li
+    - [] a
+    - [] p
