@@ -1,7 +1,3 @@
-Aquí tens el document en format Markdown amb un índex clicable:
-
----
-
 # REPÀS RÀPID HTML
 
 ## Índex
