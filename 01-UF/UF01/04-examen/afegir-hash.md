@@ -1,13 +1,19 @@
-# Examen pràctic d'HTML: Creació d'un fitxer ZIP amb hash inalterable
+# Examen pràctic d'HTML  
 
-Aquest tutorial explica com crear un arxiu ZIP amb un hash únic que inclou l'arxiu HTML de l'examen. Un cop creat, el fitxer ZIP i el hash no es podran modificar sense que detectem els canvis.
+# Creació d'un fitxer ZIP amb hash de l'HTML inalterable
 
-## 1: Crear l'arxiu HTML de l'examen
+Aquest tutorial explica com crear un hash únic a l'arxiu HTML de l'examen. Un cop creat, el hash no es podra modificar sense que detectem els canvis.
+
+## 0. Què és un hash
+
+[hash](https://latam.kaspersky.com/blog/que-es-un-hash-y-como-funciona/2806/?srsltid=AfmBOoqrLrjQhBHoCrmcGti0biLnTF_rkffq7qlSh83ITCx8OTLzIYgJ)
+
+## 1. Crear l'arxiu HTML de l'examen
 
 1. Completa l'exercici HTML seguint les instruccions de l'examen.
 2. Desa l’arxiu amb un nom com ara `examen.html` en una carpeta específica on puguis treballar.
 
-## 2: Generar el hash de l'arxiu HTML
+## 2. Generar el hash de l'arxiu HTML
 
 A continuació, genera un hash de l’arxiu `examen.html`. Aquest hash és com una “empremta digital” de l'arxiu: qualsevol canvi a l'arxiu farà que el hash canviï, ajudant-nos a detectar modificacions.
 
@@ -21,7 +27,7 @@ A continuació, genera un hash de l’arxiu `examen.html`. Aquest hash és com u
 
   4. Això crearà un fitxer anomenat `examen_hash.txt` amb el hash de `examen.html`.
 
-## 3: Crear un arxiu ZIP amb l'HTML i el hash
+## 3. Crear un arxiu ZIP amb l'HTML i el hash
 
 1. Selecciona `examen.html` i `examen_hash.txt`.
 2. Crea un arxiu ZIP amb aquests dos fitxers.  
@@ -31,7 +37,7 @@ A continuació, genera un hash de l’arxiu `examen.html`. Aquest hash és com u
      zip examen.zip examen.html examen_hash.txt
      ```
 
-## 4: Lliurar el fitxer
+## 4., Lliurar el fitxer
 
 L'examen final ha de consistir en:
 
