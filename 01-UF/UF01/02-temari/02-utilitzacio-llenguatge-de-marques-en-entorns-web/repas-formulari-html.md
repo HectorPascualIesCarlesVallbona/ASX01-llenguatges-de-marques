@@ -29,6 +29,13 @@ L'etiqueta `<form>` en HTML s'utilitza per crear formularis que permeten als usu
 </form>
 ```
 
+Exemples:
+
+- Filtratge de pel·lícules per gènere
+- Consulta d'horaris de tren
+- Calculadora d'IMC (Índex de Massa Corporal)
+- Filtratge de productes en una botiga
+
 ### Formulari amb mètode POST
 
 ```html
@@ -42,6 +49,16 @@ L'etiqueta `<form>` en HTML s'utilitza per crear formularis que permeten als usu
   <button type="submit">Registrar</button>
 </form>
 ```
+
+Exemples:
+
+- registre d'usuari
+- contacte
+- pujada de fitxers
+- comanda o compra
+- subscripció butlletí
+- configuració de perfil
+- nova entrada a blog
 
 ### Altres atributs comuns
 
