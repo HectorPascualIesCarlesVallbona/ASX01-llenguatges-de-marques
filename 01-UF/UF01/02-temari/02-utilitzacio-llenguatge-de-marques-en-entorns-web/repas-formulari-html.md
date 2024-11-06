@@ -22,7 +22,7 @@ L'etiqueta `<form>` en HTML s'utilitza per crear formularis que permeten als usu
 ### Formulari amb mètode GET
 
 ```html
-<form action="/buscar" method="get">
+<form action="buscar.php" method="get">
   <label for="query">Cerca:</label>
   <input type="text" id="query" name="query">
   <button type="submit">Enviar</button>
@@ -32,7 +32,7 @@ L'etiqueta `<form>` en HTML s'utilitza per crear formularis que permeten als usu
 ### Formulari amb mètode POST
 
 ```html
-<form action="/registre" method="post">
+<form action="registre.php" method="post">
   <label for="nom">Nom:</label>
   <input type="text" id="nom" name="nom">
   
