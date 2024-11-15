@@ -33,3 +33,11 @@
     - [] ul > li
     - [] a
     - [] p
+
+# 13112024
+- corregir examen amb alumne
+- comentar pràctiques que les pugin
+
+# 15112024
+
+- 
