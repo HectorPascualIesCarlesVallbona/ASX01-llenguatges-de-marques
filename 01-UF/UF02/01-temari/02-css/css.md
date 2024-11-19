@@ -66,7 +66,7 @@ p {
 }
 ```
 
-[Exemple CSS1 en CodePen](https://codepen.io/pen/?template=ExCSS1)
+[Exemple CSS1 en CodePen](https://codepen.io/hectorPascualComin/pen/rNXgZYd)
 
 ---
 
@@ -90,7 +90,7 @@ div {
 }
 ```
 
-[Exemple CSS2 en CodePen](https://codepen.io/pen/?template=ExCSS2)
+[Exemple CSS2 en CodePen](https://codepen.io/hectorPascualComin/pen/KKOLxQv)
 
 ---
 
@@ -111,7 +111,7 @@ button:hover {
 }
 ```
 
-[Transicions en CodePen](https://codepen.io/pen/?template=ExCSS3Trans)
+[Transicions en CodePen](https://codepen.io/hectorPascualComin/pen/KKOLxRv)
 
 ### 1.3.2 **Media Queries per Responsive Design**  
 
@@ -123,7 +123,7 @@ button:hover {
 }
 ```
 
-[Media Queries en CodePen](https://codepen.io/pen/?template=ExCSS3MQ)
+[Media Queries en CodePen](https://codepen.io/hectorPascualComin/pen/GRVaXGp)
 
 ### 1.3.3 **Flexbox per a dissenys flexibles**  
 
@@ -135,7 +135,7 @@ button:hover {
 }
 ```
 
-[Flexbox en CodePen](https://codepen.io/pen/?template=ExCSS3Flex)
+[Flexbox en CodePen](https://codepen.io/hectorPascualComin/pen/zYgQJaJ)
 
 ### 1.3.4 **Grid Layout per a estructures més complexes**  
 
@@ -147,7 +147,7 @@ button:hover {
 }
 ```
 
-[Grid en CodePen](https://codepen.io/pen/?template=ExCSS3Grid)
+[Grid en CodePen](https://codepen.io/hectorPascualComin/pen/PoMvdBN)
 
 ---
 
@@ -175,7 +175,7 @@ Permet estructurar millor la cascada d’estils:
 }
 ```
 
-[Selectors avançats en CodePen](https://codepen.io/pen/?template=ExCSS4)
+[Selectors avançats en CodePen](https://codepen.io/hectorPascualComin/pen/zYgQMNK)
 
 ---
 
@@ -197,7 +197,7 @@ Amb CSS3 i CSS4, podem afegir disseny responsiu, animacions i una estructura mod
 </div>
 ```
 
-[Exemple complet d'evolució en CodePen](https://codepen.io/pen/?template=ExCSSComplete)
+[Exemple complet d'evolució en CodePen](https://codepen.io/hectorPascualComin/pen/VwoOVyX)
 
 
 ## 2. Conceptes Bàsics de CSS  
@@ -233,7 +233,7 @@ Aquest estil aplicarà el color blau i una mida de font de 18px a tots els parà
 <p>Aquest és un text estilitzat.</p>
 ```
 
-[Veure exemple a CodePen](https://codepen.io/chriscoyier/pen/ExvNmqV)
+[Veure exemple a CodePen](https://codepen.io/hectorPascualComin/pen/xxvNQjL)
 
 
 ---
@@ -360,7 +360,7 @@ Estilitzen parts específiques del contingut d’un element.
   <p>Aquesta és la primera línia. La resta del text no està afectat.</p>
   ```
 
-[Veure exemple a CodePen](https://codepen.io/chriscoyier/pen/dyMOyjK)
+[Veure exemple a CodePen](https://codepen.io/hectorPascualComin/pen/KKOLrJV)
 
 ---
 
@@ -415,7 +415,7 @@ body {
 </body>
 ```
 
-[Veure exemple a CodePen](https://codepen.io/chriscoyier/pen/dyMOyjK)
+[Veure exemple a CodePen](https://codepen.io/hectorPascualComin/pen/LYwoXam)
 
 
 ## 3. Propietats CSS: Explicació i Opcions  
@@ -501,7 +501,7 @@ p {
 }
 ```
 
-[Veure exemple a CodePen](https://codepen.io/chriscoyier/pen/GRqMqyp)
+[Veure exemple a CodePen]()
 
 ---
 
@@ -519,7 +519,6 @@ div {
 }
 ```
 
-[Exemple en CodePen](https://codepen.io/pen/?template=ExBackgroundColor)
 
 
 ### **`background-image`**  
@@ -552,7 +551,7 @@ div {
 }
 ```
 
-[Veure exemple a CodePen](https://codepen.io/chriscoyier/pen/GRqMqyp)
+[Veure exemple a CodePen](https://codepen.io/hectorPascualComin/pen/qBeGLzz)
 
 
 ## 4. Propietats de Posicionament i Flotació  
@@ -574,7 +573,6 @@ La propietat `position` defineix com es posiciona un element dins del flux del d
     top: 10px;
   }
   ```
-  [Exemple CodePen](https://codepen.io/pen/?template=ExPositionRelative)
 
 - **`absolute`:**  
   Posiciona l'element en relació al contenidor més proper amb posicionament diferent de `static`.  
@@ -584,7 +582,6 @@ La propietat `position` defineix com es posiciona un element dins del flux del d
     top: 50px;
   }
   ```
-  [Exemple CodePen](https://codepen.io/pen/?template=ExPositionAbsolute)
 
 - **`fixed`:**  
   Posiciona l'element en relació a la finestra del navegador, no canvia en fer scroll.  
@@ -594,7 +591,6 @@ La propietat `position` defineix com es posiciona un element dins del flux del d
     top: 0;
   }
   ```
-  [Exemple CodePen](https://codepen.io/pen/?template=ExPositionFixed)
 
 - **`sticky`:**  
   L'element es mou amb l'scroll fins a un límit, després queda fix.  
@@ -604,7 +600,6 @@ La propietat `position` defineix com es posiciona un element dins del flux del d
     top: 0;
   }
   ```
-  [Exemple CodePen](https://codepen.io/pen/?template=ExPositionSticky)
 
 ---
 
@@ -625,7 +620,6 @@ La propietat `float` permet que un element floti a l'esquerra o a la dreta dins 
     margin-right: 10px;
   }
   ```
-  [Exemple CodePen](https://codepen.io/pen/?template=ExFloatLeft)
 
 - **`right`:**  
   Flota l'element a la dreta.  
@@ -635,7 +629,6 @@ La propietat `float` permet que un element floti a l'esquerra o a la dreta dins 
     margin-left: 10px;
   }
   ```
-  [Exemple CodePen](https://codepen.io/pen/?template=ExFloatRight)
 
 ---
 
@@ -653,7 +646,7 @@ Permet evitar que altres elements es col·loquin al costat d'elements flotants.
 }
 ```
 
-[Exemple `clearfix` en CodePen](https://codepen.io/pen/?template=ExClearfix)
+[Veure exemple a CodePen](https://codepen.io/hectorPascualComin/pen/gOVJqOL)
 
 
 ## 5. Disposició Avançada: Flexbox i Grid  
@@ -822,8 +815,6 @@ Defineixen l'àrea que ocupa un element.
 }
 ```
 
-[Exemple Grid Item Placement en CodePen](https://codepen.io/pen/?template=ExGridItem)
-
 
 ### **`align-self` i `justify-self`**  
 Permeten ajustar l'alineació individual d'un element dins de la seva cel·la.  
@@ -836,7 +827,7 @@ Permeten ajustar l'alineació individual d'un element dins de la seva cel·la.
 }
 ```
 
-[Exemple Grid Align Self en CodePen](https://codepen.io/pen/?template=ExGridAlignSelf)
+[Exemple a CodePen](https://codepen.io/hectorPascualComin/pen/QWeRYwa)
 
 
 ## 6. Interactivitat i Estils Dinàmics  
@@ -888,7 +879,7 @@ button:hover {
 }
 ```
 
-[Exemple de Transicions en CodePen](https://codepen.io/pen/?template=ExTransition)
+[Exemple de Transicions en CodePen](https://codepen.io/hectorPascualComin/pen/vYowbyK)
 
 ---
 
@@ -921,7 +912,7 @@ div {
 }
 ```
 
-[Exemple de Transformacions en CodePen](https://codepen.io/pen/?template=ExTransform)
+[Exemple de Transformacions en CodePen](https://codepen.io/hectorPascualComin/pen/yLmWZbR)
 
 ---
 
@@ -964,7 +955,7 @@ div {
 }
 ```
 
-[Exemple d'Animacions amb Keyframes en CodePen](https://codepen.io/pen/?template=ExKeyframes)
+[Exemple d'Animacions amb Keyframes en CodePen](https://codepen.io/hectorPascualComin/pen/rNXgPwb)
 
 
 
