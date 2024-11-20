@@ -35,9 +35,29 @@
     - [] p
 
 # 13112024
+
 - corregir examen amb alumne
 - comentar pràctiques que les pugin
 
-# 15112024
+# 20112024
 
-- 
+- explicar el que vindrà de teoria de css
+  - [] teoria molt llarga, molta documentació amb exemples editables
+  - [] s'ha de fer 2 grups
+    - advanced
+      - css grid
+      - webpack => bundle => automatitzador de tarees
+      - practica, maqueta en desktop i mobile
+    - novell
+      - flexbox
+      - maqueta desktop
+  - [] pràctiques (50%) + examen pràctic (50%)
+  - [] hi haurà 3 pràctiques d'una proposta de home de pàgina web (html + css)
+    - header
+    - main
+    - footer
+  - [] pujar pràctiques RA01
+    - header => jo
+    - main   => jo
+    - footer => vosaltres
+  - [] a partir d'ara no hi haurà ajuda
