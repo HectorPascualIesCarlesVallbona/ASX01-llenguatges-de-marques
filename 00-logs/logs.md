@@ -56,8 +56,39 @@
     - header
     - main
     - footer
-  - [] pujar pràctiques RA01
+  - [] pujar pràctiques RA02
     - header => jo
     - main   => jo
     - footer => vosaltres
   - [] a partir d'ara no hi haurà ajuda
+
+
+
+- Wassim : 10
+- Victor: 9
+- Oussama: 7
+- Eric: 10
+- Carlos Valero: 10
+- Alex R :10
+- 10
+- Trinidad: 7
+- Nagore: 7,5
+- Marna: ?
+- Camargo: ?
+- Denis: 2
+- Del Bosque: 10
+- Abel: 8
+- Pol: 8
+- Mickey: ?
+- Hector Medina: 6,5
+- Gascon: 10
+- Rossy: 7,5
+- Joel: 10
+- Izan: 9
+- Roger: 10
+- Alvaro: 7
+- Saavedra: 8
+- Arnau: ?
+- Negrillo: ?
+- Alex Arjona: 8
+- Andrea: 9
