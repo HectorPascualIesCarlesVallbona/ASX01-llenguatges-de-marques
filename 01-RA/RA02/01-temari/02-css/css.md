@@ -33,11 +33,13 @@
 
 ## 1. Introducció: Història i Evolució del CSS  
 
+[CSS in 100 Seconds](https://www.youtube.com/watch?v=OEV8gMkCHXQ&pp=ygULY3NzIGhpc3Rvcnk%3D)
+
 CSS (Cascading Style Sheets) es va introduir el 1996 per la W3C com una manera d’estilitzar els elements HTML, separant l’estil del contingut. Al llarg dels anys, ha evolucionat considerablement, passant de simples opcions d’estil a eines potents per a la creació de dissenys responsius i animacions complexes.
 
 ---
 
-### 1.1 CSS1 (1996): Els inicis  
+### 1.1 CSS1: Els inicis  
 
 CSS1 va ser la primera versió i incloïa propietats bàsiques per a l’estilització de text i marges.  
 
@@ -70,7 +72,7 @@ p {
 
 ---
 
-### 1.2 CSS2 (1998): Posicionament i Taules  
+### 1.2 CSS2: Posicionament i Taules  
 
 CSS2 va afegir funcions més avançades, com ara el **posicionament** i el suport per a mitjans de sortida diferents (pantalla, impressora).  
 
@@ -94,7 +96,7 @@ div {
 
 ---
 
-### 1.3 CSS3 (2011): Modularització i Estils Avançats  
+### 1.3 CSS3: Modularització i Estils Avançats  
 
 CSS3 es va dividir en mòduls per facilitar la seva adopció. Cada mòdul es va centrar en àrees específiques com **animacions**, **transicions**, **Flexbox**, **Grid Layout**, i **Media Queries** per al disseny responsiu.
 
@@ -179,7 +181,57 @@ Permet estructurar millor la cascada d’estils:
 
 ---
 
-### 1.5 Cas d'Ús Real: Evolució d'un Lloc Web  
+### 1.5 Resum històric
+Les **dates de sortida al mercat** de les diferents versions de CSS (quan van començar a ser utilitzades àmpliament i suportades pels navegadors) són una mica més difuses, ja que depenen de la implementació en els navegadors més comuns de l'època. Aquí tens una estimació basada en l'adopció pràctica:
+
+---
+
+#### **CSS1**  
+- **Sortida al mercat:** **1997**
+- Tot i que es va publicar oficialment el desembre de 1996, la seva adopció pràctica va començar el 1997 amb suport parcial en navegadors com Internet Explorer 3 i Netscape Navigator 4.
+
+---
+
+#### **CSS2**
+- **Sortida al mercat:** **1999-2000**
+- Els primers navegadors a donar suport parcial a CSS2 van ser **Internet Explorer 5** i **Netscape 6** (1999-2000). No obstant això, el suport complet no va ser pràctic fins a principis dels 2000 amb navegadors com **Mozilla Firefox 1.0** (2004).
+
+---
+
+#### **CSS2.1**
+- **Sortida al mercat:** **2004-2005**
+- Tot i que es va començar a desenvolupar a finals dels anys 90, **CSS2.1** no es va implementar de forma consistent fins al suport complet per navegadors com **Mozilla Firefox 1.0**, **Internet Explorer 6** (parcial), i **Opera 7** entre el 2004 i el 2005.
+
+---
+
+#### **CSS3**
+- **Sortida al mercat:** **2012-2014**
+- Encara que el treball modular de CSS3 va començar molt abans, les funcionalitats més importants com **Flexbox**, **transicions**, i **animacions** van començar a ser àmpliament utilitzades i compatibles amb els navegadors principals entre el **2012 i el 2014**:
+  - **Google Chrome** i **Safari** van adoptar ràpidament CSS3 entre el 2011-2012.
+  - **Firefox 10** (2012) va afegir un suport estable.
+  - **Internet Explorer 10** (2012) va ser el primer navegador de Microsoft amb suport ampli a CSS3.
+
+---
+
+#### **CSS Grid (Nivell 1)**
+- **Sortida al mercat:** **2017**
+- El suport ampli a **CSS Grid** va arribar amb les versions de **Chrome 57**, **Firefox 52**, i **Edge 16**, totes el **2017**. Això va marcar un gran avanç en el disseny web modern.
+
+---
+
+#### **CSS Variables (Custom Properties)**
+- **Sortida al mercat:** **2017**
+- Les **CSS Variables** van començar a ser àmpliament utilitzades a partir del 2017 amb el suport de Chrome, Firefox i Safari.
+
+---
+
+#### **CSS4**
+- **Sortida al mercat:** **2019-actualitat**
+- No hi ha una "versió completa" de CSS4, però mòduls com **Media Queries Level 4**, **Selectors Level 4** i altres característiques modernes comencen a ser àmpliament suportades pels navegadors des del 2019 i continuen evolucionant.
+
+---
+
+### 1.6 Cas d'Ús Real: Evolució d'un Lloc Web  
 
 Un lloc web senzill estilitzat amb CSS1 es veuria així:
 
@@ -238,7 +290,7 @@ Aquest estil aplicarà el color blau i una mida de font de 18px a tots els parà
 
 ---
 
-### 2.2 Selectores i Tipus  
+### 2.2 Selectors i Tipus  
 
 Els **selectors** identifiquen quins elements HTML seran afectats per les regles CSS. A continuació es presenten els tipus més utilitzats:
 
@@ -447,8 +499,8 @@ p {
 Defineix la família de fonts a utilitzar en un element.  
 
 **Valors possibles i el seu significat:**  
-- **Nom de la font** (`"Arial"`, `"Times New Roman"`):** Assigna una font específica.  
-- **Fonts generiques** (`serif`, `sans-serif`, `monospace`):** Assigna un tipus de font genèric en cas que la font específica no estigui disponible.  
+- **Nom de la font** (`"Arial"`, `"Times New Roman"`):Assigna una font específica.  
+- **Fonts generiques** (`serif`, `sans-serif`, `monospace`):Assigna un tipus de font genèric en cas que la font específica no estigui disponible.  
 
 ```css
 p {
@@ -461,9 +513,9 @@ p {
 Controla la mida de la lletra.  
 
 **Valors possibles i el seu significat:**  
-- **Unitats absolutes** (`px`, `pt`, `cm`):** Defineixen una mida fixa, independent del context.  
-- **Unitats relatives** (`em`, `rem`, `%`, `vw`, `vh`):** Defineixen una mida en relació amb altres elements o amb la mida de la finestra.  
-- **Paraules clau** (`small`, `medium`, `large`):** Assignen mides predefinides pel navegador.  
+- **Unitats absolutes** (`px`, `pt`, `cm`): Defineixen una mida fixa, independent del context.  
+- **Unitats relatives** (`em`, `rem`, `%`, `vw`, `vh`): Defineixen una mida en relació amb altres elements o amb la mida de la finestra.  
+- **Paraules clau** (`small`, `medium`, `large`): Assignen mides predefinides pel navegador.  
 
 ```css
 p {

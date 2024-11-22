@@ -62,5 +62,9 @@
     - footer => vosaltres
   - [] a partir d'ara no hi haurà ajuda
 
+# 22112024
+- inici classe CSS
+- inici pràctica04 css
+
 
 
