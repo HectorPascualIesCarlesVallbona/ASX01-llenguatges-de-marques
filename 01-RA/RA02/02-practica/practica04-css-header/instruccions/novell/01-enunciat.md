@@ -13,7 +13,9 @@ Crear i estilitzar la capçalera del lloc web amb HTML i CSS. Els estudiants apr
 **Requisits:**
 - Crear un `<header>` que inclogui:
   - Un logotip.
-  - Un menú de navegació amb enllaços.
+  - Un text d'introducció.
+  - Un botó "Get started..."
+  - Una imatge
   - Un botó "Try It Free".
 - Estilitzar la capçalera amb CSS:
   - Centrar els elements dins del `<header>` utilitzant Flexbox (novells) o CSS Grid (advanced).

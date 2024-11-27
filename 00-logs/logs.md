@@ -63,8 +63,9 @@
   - [] a partir d'ara no hi haurà ajuda
 
 # 22112024
-- inici classe CSS
+- inici classe CSS fins a https://github.com/HectorPascualIesCarlesVallbona/ASX01-llenguatges-de-marques/blob/main/01-RA/RA02/01-temari/02-css/css.md#32-propietats-de-color-i-fons
 - inici pràctica04 css
+  - explicar a següent classe instal.lació webpack
 
 
 
