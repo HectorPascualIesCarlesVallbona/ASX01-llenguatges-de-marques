@@ -67,5 +67,11 @@
 - inici pràctica04 css
   - explicar a següent classe instal.lació webpack
 
+# 24112024
+- continuar pràctica 04 css header
+
+# 29112024
+  - explicar instal.lació webpack
+  - continuar pràctica 04 css header
 
 
