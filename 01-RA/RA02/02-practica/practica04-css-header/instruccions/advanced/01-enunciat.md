@@ -3,6 +3,9 @@
 **Objectiu general:**  
 Dividir la maquetació de la pàgina web en tres pràctiques enfocades en diferents parts de la pàgina: **capçalera**, **main** i **footer**. Cada pràctica inclourà HTML i CSS per al seu bloc específic.
 
+L'estructura de cada pràctica seguirà a la del repositori següent que clonarem en el nostre ordinador
+[projecte-webpack-css](https://github.com/HectorPascualIesCarlesVallbona/projecte-webpack-css/tree/main)
+
 ---
 
 ## **Pràctica 1: Maquetació de la Capçalera**
