@@ -62,16 +62,16 @@
     - footer => vosaltres
   - [] a partir d'ara no hi haurà ajuda
 
-# 22112024
-- inici classe CSS fins a https://github.com/HectorPascualIesCarlesVallbona/ASX01-llenguatges-de-marques/blob/main/01-RA/RA02/01-temari/02-css/css.md#32-propietats-de-color-i-fons
-- inici pràctica04 css
-  - explicar a següent classe instal.lació webpack
 
-# 24112024
-- continuar pràctica 04 css header
+# 04122024
+- explicar float
+- següent pràctica explicaré flex
+- explicar css grid
+- continuar pràctica
+- aprofitaré pont i nadal per posar al dia notes
 
-# 29112024
-  - explicar instal.lació webpack
-  - continuar pràctica 04 css header
-
-
+# 11122024
+- recordar pràctiques totes pujades a moodle
+- muntar reproductor amb gràfica
+- continuació pràctica header css
+- explicar que es va enviar css grid -> continuar explicació 

@@ -13,13 +13,13 @@ Els dissenys es van crear per a les amplades següents:
 
 ### Primaris
 
-- Rosa: hsl(322, 100%, 66%)
+- Rosa: #ff51bf
 
 ### Neutrals
 
-- Cian molt pàl·lid: hsl(193, 100%, 96%)  
-- Cian molt fosc: hsl(192, 100%, 9%)  
-- Blau grisenc: hsl(208, 11%, 55%)  
+- **Cian molt pàl·lid**: #eafaff
+- **Cian molt fosc**: #00242d
+- **Blau grisenc**: #7f8d98 ​
 
 ## Tipografia
 
