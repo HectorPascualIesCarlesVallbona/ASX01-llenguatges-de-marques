@@ -75,3 +75,8 @@
 - muntar reproductor amb gràfica
 - continuació pràctica header css
 - explicar que es va enviar css grid -> continuar explicació 
+
+# 13122024
+- explicar css grid header
+- explicar botó
+- explicar margins i paddings

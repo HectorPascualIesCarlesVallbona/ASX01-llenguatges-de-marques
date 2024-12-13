@@ -9,6 +9,56 @@ Els dissenys es van crear per a les amplades següents:
 
 > 💡 Aquestes són només les mides de disseny. Assegureu-vos que el contingut sigui responsive i compleixi amb els requisits WCAG provant tot el rang de mides de pantalla des de 320px fins a pantalles grans.
 
+### Estructura
+```
++-----------+--------+--------+------------+
+|    logo   |                 | tryButton  | <- Row 1
++-----------+--------+--------+------------+
+|                    |                     | <- Row 2
++      textIntro     +         img         +
+|                    |                     | <- Row 3
++-----------+--------+--------+------------+
+```
+
+#### HTML (exemple)
+```html
+<div class="gridContainer">
+  <div class="logo">Logo</div>
+  <div class="tryButton">Try</div>
+  <div class="textIntro">Text Intro</div>
+  <div class="photo"><img /></div>
+</div>
+```
+
+#### CSS (exemple)
+```css
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; /* 4 columnes */
+  grid-template-rows: auto auto auto;    /* 3 files */
+  grid-template-areas:
+    "logo . . tryButton"
+    "textIntro textIntro photo photo"
+    "textIntro textIntro photo photo";
+}
+
+.logo {
+  grid-area: logo;
+}
+
+.tryButton {
+  grid-area: tryButton;
+}
+
+.textIntro {
+  grid-area: textIntro;
+}
+
+.photo {
+  grid-area: photo;
+}
+```
+
 ## Colors
 
 ### Primaris
