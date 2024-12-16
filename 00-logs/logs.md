@@ -81,7 +81,3 @@
 - explicar botó
 - explicar margins i paddings
 
-# 16122024
-- Xavi .5
-- Muha .5
-- repàs anterior examen
