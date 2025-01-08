@@ -81,3 +81,11 @@
 - explicar botó
 - explicar margins i paddings
 
+# 18122024
+- continuació pràctica css header > quasi ha d'estar acabada
+- explicar paddings i margins a la pràctica
+
+# 08012024
+- entrega header
+- continuació cos
+
