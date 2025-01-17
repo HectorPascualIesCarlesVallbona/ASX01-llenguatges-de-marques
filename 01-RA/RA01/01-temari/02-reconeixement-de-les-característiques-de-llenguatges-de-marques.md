@@ -23,9 +23,9 @@
 
 ## 1. Classificació
 
-Els llenguatges de marques es poden classificar en diferents categories segons la seva funció i objectiu principal. Aquesta part sembla molt teòrica, però t'ajudo amb exemples que et seran útils per veure-ho clar.
+Els llenguatges de marques es poden classificar en diferents categories segons la seva funció i objectiu principal. Aquesta part sembla molt teòrica, però amb exemples serà més útil per veure-ho clar.
 
-- **Llenguatges de marques de presentació**: Serveixen per mostrar coses. Per exemple, HTML estructura webs, i LaTeX s'utilitza per fer documents xulos com treballs acadèmics.
+- **Llenguatges de marques de presentació**: Serveixen per mostrar coses. Per exemple, HTML estructura webs, i LaTeX s'utilitza per fer documents `xulos` com treballs acadèmics.
   - Exemple d'HTML:
 
 ```html
@@ -43,7 +43,7 @@ Aquest és un document fet amb LaTeX.
 \end{document}
 ```
 
-- **Llenguatges de marques de dades**: Per guardar i compartir dades. XML i JSON en són clars exemples.
+- **Llenguatges de marques de dades**: Per guardar i compartir dades. XML i JSON en són clars exemples. Els objectes JSON els veurem a fons més endavant en la RA03.
   - Exemple d'XML:
 
 ```xml
@@ -88,7 +88,7 @@ Aquest és un document fet amb LaTeX.
 1. **Desenvolupament web**: HTML estructura la web, CSS la fa bonica.
 2. **Documentació**: Markdown per manuals i XML per gestionar dades.
 3. **Gràfics**: SVG crea dibuixos i gràfics vectorials.
-4. **Intercanvi de dades**: JSON i XML permeten que apps parlin entre elles.
+4. **Intercanvi de dades**: JSON i XML permeten que apps es comuniquin entre elles.
 
 ---
 
@@ -147,7 +147,7 @@ Aquest és un document fet amb LaTeX.
 ### Eines recomanades
 
 - **HTML**:
-  - Visual Studio Code (VS Code): Super complet.
+  - Visual Studio Code (VS Code): Super complet. El que utilitzeu a classe.
 - **XML**:
   - Notepad++: Lleuger i potent.
 - **Markdown**:
@@ -162,9 +162,7 @@ Aquest és un document fet amb LaTeX.
 ---
 
 ## 5. Elaboració de documents ben formats
-
-Per evitar errors, assegura’t que:
-
+💡 Per evitar errors, assegura’t que:
 - Les etiquetes sempre tinguin obertura i tancament.
 - No hi hagi etiquetes mal posades.
 
@@ -179,7 +177,6 @@ Per evitar errors, assegura’t que:
   </body>
 </html>
 ```
-
 ---
 
 ## 6. Utilització d'espais de noms
