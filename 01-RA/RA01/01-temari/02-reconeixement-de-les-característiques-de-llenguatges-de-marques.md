@@ -65,7 +65,10 @@ Aquest és un document fet amb LaTeX.
 ```
 
 - **Llenguatges mixtos**: Fan una mica de tot, com SVG per a gràfics vectorials.
-  - Exemple d'SVG:
+  - SVG:
+    - Com a llenguatge de presentació, permet descriure gràfics vectorials escalables, definint formes, colors, i estils directament dins del codi XML.
+    - Com a llenguatge de dades, permet emmagatzemar informació estructurada sobre els gràfics, com atributs, dimensions i metadades, cosa que el fa útil per a l'intercanvi d'informació gràfica entre aplicacions.
+    - Pot ser llegit i entès tant per humans com per màquines. La seva sintaxi és clara i fàcilment comprensible per a un desenvolupador, mentre que els sistemes informàtics poden interpretar-lo per generar gràfics escalables.
 
 ```svg
 <svg height="100" width="100">
@@ -100,7 +103,10 @@ Aquest és un document fet amb LaTeX.
   - Exemple:
 
 ```html
-<p>Aquest és un paràgraf.</p>
+  <p>Aquest és un paràgraf.</p>
+
+  <!-- això és una imatge, amb atribut `src` per indicar imatge a mostrar i etiqueta `alt`com a descripció de la mateixa -->
+  <img src="imatge.jpg" alt="Descripció de la imatge">
 ```
 
 - **Atributs**: Donen més informació a les etiquetes.
@@ -119,12 +125,13 @@ Aquest és un document fet amb LaTeX.
 ```html
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Pàgina d'exemple</title>
+  <head> <!-- `head` etiqueta que es troba dintre d'una capçalera de document html -->
+    <title>Pàgina d'exemple</title> <!-- Títol de la pàgina html amagat per l'usuari -->
   </head>
   <body>
     <h1>Hola!</h1>
     <p>Estic aprenent llenguatges de marques.</p>
+    <a href="https://www.curshtml.com">Vull saber més</a> <!-- hyperlink amb atribut apuntant a una url definida -->
   </body>
 </html>
 ```
@@ -170,7 +177,7 @@ Aquest és un document fet amb LaTeX.
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="ca"> <!-- *lang* especificació idioma del document -->
   <body>
     <h1>Títol correcte</h1>
     <p>Tot ben tancat!</p>
