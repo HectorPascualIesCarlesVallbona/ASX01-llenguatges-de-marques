@@ -1,7 +1,20 @@
 # CLIENT SIDE SCRIPTING LANGUAGE
 
+## Metodologia entrega pràctiques i examen
+- < 4 => pràctica => suspesa RA => presentar pràctica al juny
+- < 4 => examen   => suspesa RA
+- copiat company  => RA suspesa => t'has de presentar a tota la RA al juny
+- pràctiques si no es segueix estructura del projecte demanat i nomenclatura demanada restarà 2 punts, per molt petita que sigui la falta
+- pràctiques hi haurà data límit, després d'això es tancaran
+- a l'html la ruta als arxius han de ser relatiu, no absolut
+
 ## Llenguatges de guió
--client side scripting language, no llenguatges de guió
+- client side scripting language, no llenguatges de guió
+- Un client-side scripting language és un llenguatge de programació que s'executa directament al navegador de l'usuari i no al servidor. Aquests llenguatges permeten afegir interactivitat i dinamisme a les pàgines web sense necessitat de recarregar-les completament.
+- WebAssembly (WASM) - Llenguatges compilats per al navegador (C++ i Rust)
+- Dart - Llenguatge de Google (amb framework Flutter)
+- VBScript (en desús) -> antic utilitzat en Internet Explorer
+- ActionScript
 
 ## Estructura dels nostres documents > seguir-la
 ```bash
