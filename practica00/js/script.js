@@ -62,12 +62,30 @@ console.log(suma2(15, 5))
 
 // ---------------------------------
 
-function esParell() {
-    const parell = // mètode per detactar si és parell
+function isEvenOrOdd(number) {
+    // L’operador % (mòdul) calcula el residu de dividir numero per 2
+    // Si numero és parell, el residu serà 0
+    // Si numero és senar, el residu serà 1
+    // 4 % 2  →  0  Parell
+    // 7 % 2  →  1  Senar
+    // 10 % 2 →  0  Parell
+    // 15 % 2 →  1  Senar
 
-    if (parell) {
-        true
+    // L’operador === compara si els dos valors són exactament iguals
+    // Si numero % 2 és 0, la comparació retorna true (és parell)
+    // Si numero % 2 és 1, la comparació retorna false (és senar)
+    
+    if (number % 2 === 0) {
+        console.log('és parell')
     } else {
-        false
+        console.log('és senar')
     }
 }
+
+isEvenOrOdd(7)
+
+// --------------------------
+document.querySelector('.mostrarMissatge').addEventListener('click', function() {
+    alert('Hello Trinidad')
+})
+
