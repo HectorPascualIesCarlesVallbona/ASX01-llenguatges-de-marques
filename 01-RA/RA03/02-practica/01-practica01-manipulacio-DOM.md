@@ -114,7 +114,7 @@ La puntuació de la pràctica es distribuirà de la següent manera:
 ---
 
 ### **ENTREGA**  
-✔ **Data límit:** **26-02-2025** (inclòs aquest dia).  
+✔ **Data límit:** **28-02-2025** (inclòs aquest dia).  
 
 ✔ **Requisits d’entrega:**  
 1. **L’estructura de fitxers i carpetes ha de ser EXACTAMENT la demanada.**  

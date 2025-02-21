@@ -91,10 +91,23 @@ document.querySelector('.mostrarMissatge').addEventListener('click', function() 
 
 // ----------------------------
 // [] canvia color h1
+// document.querySelector('h1').style.color = '#ff0000'
+
 // [] mida text h1
+document.querySelector('h1').style.fontSize = '140px'
+
 // [] canvia el text h1
-// [] afegeix un paràgraf desprès del h1 
+document.querySelector('h1').textContent = 'Hola Trinidad'
+
+// [] afegeix un paràgraf desprès del h1 i afegeix un text
+const paragraf = document.createElement('p')
+paragraf.textContent = 'You are the best'
+document.body.appendChild(paragraf)
+
 // [] elimina element del DOM
+document.body.removeChild(paragraf)
+
 // [] aplica un estil del css
+document.querySelector('h1').classList.add('colorBlue')
 
 
