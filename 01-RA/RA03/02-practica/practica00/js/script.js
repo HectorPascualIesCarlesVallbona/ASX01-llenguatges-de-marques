@@ -89,3 +89,12 @@ document.querySelector('.mostrarMissatge').addEventListener('click', function() 
     alert('Hello Trinidad')
 })
 
+// ----------------------------
+// [] canvia color h1
+// [] mida text h1
+// [] canvia el text h1
+// [] afegeix un paràgraf desprès del h1 
+// [] elimina element del DOM
+// [] aplica un estil del css
+
+
