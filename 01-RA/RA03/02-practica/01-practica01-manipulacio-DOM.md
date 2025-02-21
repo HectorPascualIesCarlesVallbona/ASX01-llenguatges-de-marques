@@ -28,7 +28,30 @@ Aquesta pràctica et permetrà començar a **manipular elements d’una pàgina 
             └── js/
                 └── script.js
    ```
-3. **Crea l’estructura bàsica del `index.html` i assegura't d’enllaçar correctament els fitxers CSS i JavaScript.**  
+3. **Crea l’estructura bàsica del `index.html` i assegura't d’enllaçar correctament els fitxers CSS i JavaScript.** 
+   ```html
+      <!DOCTYPE html>
+      <html lang="ca">
+         <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Pràctica 1 - Manipulació del DOM</title>
+            <link rel="stylesheet" href="css/styles.css">
+         </head>
+         <body>
+
+            <h1 id="titol">Hola, JavaScript!</h1>
+            <p class="paragraf">Aquest és un text inicial.</p>
+            <button id="canviarText">Canvia el text</button>
+            <button id="afegirElement">Afegir element</button>
+            <button id="eliminarElement">Eliminar últim element</button>
+
+            <ul id="llista"></ul>
+
+            <script src="js/script.js"></script>
+         </body>
+      </html>
+   ```
 
 ---
 
