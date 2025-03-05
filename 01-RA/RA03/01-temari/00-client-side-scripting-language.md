@@ -470,5 +470,4 @@ boto.addEventListener("click", function() {
 });
 ```
 
-Aquest document cobreix tot el **RA03 - Manipulació de Documents Web**, amb explicacions detallades i molts exemples de codi per facilitar-ne la comprensió i aplicació pràctica.
 

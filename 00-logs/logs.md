@@ -89,3 +89,11 @@
 - entrega header
 - continuació cos
 
+# 19022025
+- teoria primera part js
+
+# 21022025
+- temps per practica 01 js
+
+# 2802205
+- temps i entrega per practica 01 js

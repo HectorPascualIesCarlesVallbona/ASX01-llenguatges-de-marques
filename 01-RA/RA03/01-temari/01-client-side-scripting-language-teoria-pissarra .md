@@ -1,12 +1,16 @@
 # CLIENT SIDE SCRIPTING LANGUAGE
 
-## Metodologia entrega pràctiques i examen
-- < 4 => pràctica => suspesa RA => presentar pràctica al juny
-- < 4 => examen   => suspesa RA
-- copiat company  => RA suspesa => t'has de presentar a tota la RA al juny
-- pràctiques si no es segueix estructura del projecte demanat i nomenclatura demanada restarà 2 punts, per molt petita que sigui la falta
-- pràctiques hi haurà data límit, després d'això es tancaran
-- a l'html la ruta als arxius han de ser relatiu, no absolut
+## **📌 Metodologia d'Entrega de Pràctiques i Examen**  
+
+📌 **Criteris de qualificació:**  
+- **Nota < 4 a la pràctica** → RA suspesa → Presentació obligatòria de la pràctica al juny.  
+- **Nota < 4 a l'examen** → RA suspesa.  
+- **Còpia d’un company** → RA suspesa → Caldrà **repetir TOTA la RA al juny**.  
+
+📌 **Criteris de penalització en les pràctiques:**  
+- **No seguir l'estructura del projecte o la nomenclatura indicada** → **-2 punts**, encara que sigui un detall mínim.  
+- **Entrega fora de termini sense justificació vàlida** → **Nota automàtica de 0**.  
+- **Les rutes en els arxius HTML han de ser relatives, no absolutes**. Si aquesta norma no es compleix → **-3 punts**.  
 
 ## Llenguatges de guió
 - client side scripting language, no llenguatges de guió
