@@ -89,7 +89,7 @@ Document
 📌 Exemple de **llista (array) de colors**:  
 
 ```javascript
-let colors = ['vermell', 'blau', 'verd'];
+const colors = ['vermell', 'blau', 'verd', 'groc'];
 colors.push('groc');  // Afegeix 'groc' a l’array
 console.log(colors.length);  // Output: 4
 console.log(colors[2]);  // Output: 'verd'
@@ -106,8 +106,8 @@ console.log(colors[2]);  // Output: 'verd'
 
 ```javascript
 const elements = document.querySelectorAll('.info');
-elements.forEach(element => {
-    element.style.backgroundColor = 'yellow';
+elements.forEach(element, function () {
+    element.style.backgroundColor = 'yellow'
 });
 ```
 🔹 **Explicació:**  
