@@ -149,25 +149,25 @@ li {
 **Copia i pega al teu document script.js**  
 
 ```javascript
-// 1️. Afegeix li dinàmicament
+// 1️. 
 
 
-// 2️.Evitar 
+// 2️.
 
 
-// 3️. Crear un nou element <li> amb un text dinàmic
+// 3️.
 
 
-// 4️. Afegir botons "Editar" i "Eliminar" dins de cada <li>
+// 4️.
 
 
-// 5️. Fer que el text sigui editable en fer clic a "Editar"
+// 5️.
 
 
-// 6️. Canviar el color del text aleatòriament en fer-hi clic
+// 6️. 
 
 
-// 7️. Implementar funcionalitat per eliminar un element
+// 7️. 
 
 ```
 
