@@ -57,7 +57,7 @@ RA03-javascript/
 
 ## **2️⃣ Esquema visual dels elements**  
 
-**Copia i pega a index.html**  
+**Com quedaria**  
 
 ```html
 <body>
