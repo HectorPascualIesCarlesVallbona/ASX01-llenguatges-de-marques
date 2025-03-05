@@ -138,8 +138,8 @@ li {
 ## **4️⃣ Implementació de la funcionalitat - `script.js`**  
 
 **Requeriments de la funcionalitat:**  
-1️⃣ **Afegir un nou `<li>` dinàmicament** en clicar el botó **Afegir Element**. 
-2️⃣ **No permetre afegir elements buits** (cal validar l’`input`)
+1️⃣ **Afegir un nou `<li>` dinàmicament** en clicar el botó **Afegir Element**.   
+2️⃣ **No permetre afegir elements buits** (cal validar l’`input`)  
 3️⃣ **Cada element de la llista ha de contenir un text editable.**  
 4️⃣ **Cada element ha de tenir un botó "Editar" que activi la edició en línia.**  
 5️⃣ **El text ha de canviar de color cada vegada que es faci clic sobre ell.**  
@@ -149,10 +149,10 @@ li {
 **Copia i pega al teu document script.js**  
 
 ```javascript
-// 1️. Selecciona els elements HTML necessaris
+// 1️. Afegeix li dinàmicament
 
 
-// 2️. Afegir funcionalitat al botó "Afegir Element"
+// 2️.Evitar 
 
 
 // 3️. Crear un nou element <li> amb un text dinàmic
