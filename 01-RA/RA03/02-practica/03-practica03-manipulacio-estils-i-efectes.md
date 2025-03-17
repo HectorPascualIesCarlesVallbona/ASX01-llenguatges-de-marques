@@ -191,7 +191,7 @@ input[type="range"] {
 ✅ **Cada funcionalitat completament (5) implementada (1,80 punts cadascuna)**  
 ✅ **El codi està estructurat i ordenat correctament (1 punt).**   
 
-**Data límit d'entrega:** **19/03/2025 - 23:59**  
+**Data límit d'entrega:** **23/03/2025 - 23:59**  
 
 ---
 
