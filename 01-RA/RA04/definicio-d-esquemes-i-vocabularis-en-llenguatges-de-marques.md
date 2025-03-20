@@ -1,20 +1,33 @@
 # **RA04 - Definició d'Esquemes i Vocabularis en Llenguatges de Marques**
 
 ## **Índex**
-1. [Tecnologies per a la Definició de Documents. Estructura i Sintaxi](#41-tecnologies-per-a-la-definicio-de-documents-estructura-i-sintaxi)
-   - [DTD (Document Type Definition)](#dtd-document-type-definition)
-   - [XSD (XML Schema Definition)](#xsd-xml-schema-definition)
-   - [JSON Schema](#json-schema)
-2. [Creació de Descripcions de Documents](#42-creacio-de-descripcions-de-documents)
-   - [Creació de Descripcions en XML](#creacio-de-descripcions-en-xml)
-   - [Creació de Descripcions en JSON](#creacio-de-descripcions-en-json)
-3. [Associació de Descripcions amb Documents. Validació](#43-associacio-de-descripcions-amb-documents-validacio)
-   - [Validació de Documents XML](#validacio-de-documents-xml)
-   - [Validació amb DTD](#validacio-amb-dtd)
-   - [Validació amb XSD](#validacio-amb-xsd)
-4. [Eines de Creació i Validació](#44-eines-de-creacio-i-validacio)
-   - [Eines per a XML](#eines-per-a-xml)
-   - [Eines per a JSON](#eines-per-a-json)
+
+1. [Tecnologies per a la Definició de Documents. Estructura i Sintaxi](#1-tecnologies-per-a-la-definicio-de-documents-estructura-i-sintaxi)  
+    - 1.1 [DTD (Document Type Definition)](#11-dtd-document-type-definition)  
+    - 1.2 [XSD (XML Schema Definition)](#12-xsd-xml-schema-definition)  
+    - 1.3 [JSON Schema](#13-json-schema)  
+
+2. [Creació de Descripcions de Documents](#2-creacio-de-descripcions-de-documents)  
+    - 2.1 [Creació de Descripcions en XML](#21-creacio-de-descripcions-en-xml)  
+        - 2.1.1 [Definició d'un Document XML](#211-definicio-dun-document-xml)  
+        - 2.1.2 [Definició d'un Esquema XSD per al Document XML](#212-definicio-dun-esquema-xsd-per-al-document-xml)  
+    - 2.2 [Creació de Descripcions en JSON](#22-creacio-de-descripcions-en-json)  
+        - 2.2.1 [Definició d'un Document JSON](#221-definicio-dun-document-json)  
+
+3. [Associació de Descripcions amb Documents. Validació](#3-associacio-de-descripcions-amb-documents-validacio)  
+    - 3.1 [Validació de Documents XML](#31-validacio-de-documents-xml)  
+        - 3.1.1 [Validació amb DTD](#311-validacio-amb-dtd)  
+        - 3.1.2 [Validació amb XSD](#312-validacio-amb-xsd)  
+    - 3.2 [Eines de Validació](#32-eines-de-validacio)  
+
+4. [Eines de Creació i Validació](#4-eines-de-creacio-i-validacio)  
+    - 4.1 [Eines per a XML](#41-eines-per-a-xml)  
+        - 4.1.1 [Oxygen XML Editor](#411-oxygen-xml-editor)  
+        - 4.1.2 [Altova XMLSpy](#412-altova-xmlspy)  
+    - 4.2 [Eines per a JSON](#42-eines-per-a-json)  
+        - 4.2.1 [JSONLint](#421-jsonlint)  
+        - 4.2.2 [JSON Formatter](#422-json-formatter)  
+        - 4.2.3 [XML to JSON Converter](#423-xml-to-json-converter)  
 
 ---
 
