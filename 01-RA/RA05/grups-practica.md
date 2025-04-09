@@ -1,0 +1,11 @@
+# Grupos de práctica
+- Hector Medina, Joel Herrero, Javier Diaz
+- Andrea - Àlex
+- Arnau Traveria - Daniel Garcia
+- hector.S ,alvaro
+- Regas - Izan
+- Rosi - Àlex
+- nagore-victor
+- manel-dani t
+- Alex Rodriguez-Abel
+- Carlos, eric, osama
