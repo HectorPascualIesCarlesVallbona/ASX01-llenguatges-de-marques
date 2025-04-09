@@ -34,7 +34,7 @@
    - Com és l’XML
    - Resultat de la validació
    - Format i resultat de la conversió
-   - Aplicacions possibles d’aquest XML en intercanvi d’informació
+   - Aplicacions possibles d'aquest XML en intercanvi d’informació
 
 ---
 
