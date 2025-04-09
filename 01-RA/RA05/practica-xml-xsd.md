@@ -30,7 +30,7 @@
 
 #### **Fase 4: Lliurament i reflexió**
 1. Informe final explicant:
-   - Quina web han usat
+   - Quina web s'ha testejat
    - Com és l’XML
    - Resultat de la validació
    - Format i resultat de la conversió
