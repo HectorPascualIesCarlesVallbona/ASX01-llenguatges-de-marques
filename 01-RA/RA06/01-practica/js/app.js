@@ -98,8 +98,8 @@ function consultaTemps() {
 // per a noms de propietats.
 // 
 // dades["primer trimestre"]  // OK
-// dades.primer_trimestre     // Més net i habitual
-// dades.primerTrimestre      // Més net i habitual
+// dades.primer_trimestre     // Més net, habitual
+// dades.primerTrimestre      // Més net, habitual
 // dades["primer-trimestre"]  // Funciona, no recomanable
 // dades.primer trimestre     // Error
 // dades.primer-trimestre     // NO funciona, intenta restar variables!
