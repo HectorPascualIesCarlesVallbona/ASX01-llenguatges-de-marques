@@ -10,13 +10,11 @@ function consultaTemps() {
         return
      }
 
-    // Sense el encodeURIComponent
-    // fetch(`https://exemple.com/api/temps/${localitat}`)
     // per defecte utilitza el mètode HTTP GET si no s'especifica cap altre mètode
-    fetch(`https://exemple.com/api/temps/${encodeURIComponent(localitat)}`)
+    fetch(`https://exemple.com/api/temps/${localitat}`)
         .then(res => {
             if (!res.ok) throw new Error("Error en la resposta del servidor")
-            return res.json();
+            return res.json()
         })
         .then(dades => {
             resultat.innerHTML = `
