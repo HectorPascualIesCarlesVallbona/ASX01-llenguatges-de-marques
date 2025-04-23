@@ -1,5 +1,5 @@
-const boto = document.getElementById("consultaBtn");
-boto.addEventListener("click", consultaTemps);
+const boto = document.getElementById("consultaBtn")
+boto.addEventListener("click", consultaTemps)
 
 function consultaTemps() {
     const localitat = document.getElementById('localitat').value.trim()
@@ -33,9 +33,10 @@ function consultaTemps() {
         });
 }
 
+
 // Simulació de la resposta del servidor
 // Aquesta part no es pot executar en un entorn real
-// i només es fa servir per a la demostració.
+// i només es fa servir per a la demostració
 /*{
   "localitat": "Barcelona",
   "temperatura": 22,
@@ -43,5 +44,66 @@ function consultaTemps() {
   "condicio": "Assolellat",
   "humitat": 58
 }*/
+
+
+// Exemple de json multidimensional
+// {
+//   "cursos": [
+//     {
+//       "nom": "Matemàtiques",
+//       "professor": "Anna Puig",
+//       "alumnes": [
+//         {
+//           "nom": "Jordi Garcia",
+//           "edat": 17,
+//           "qualificacions": {
+//             "primer_trimestre": 8.5,
+//             "segon_trimestre": 7.8,
+//             "tercer_trimestre": 9.0
+//           }
+//         },
+//         {
+//           "nom": "Laia Roca",
+//           "edat": 16,
+//           "qualificacions": {
+//             "primer_trimestre": 9.2,
+//             "segon_trimestre": 8.9,
+//             "tercer_trimestre": 9.5
+//           }
+//         }
+//       ]
+//     },
+//     {
+//       "nom": "Història",
+//       "professor": "Marc Vidal",
+//       "alumnes": [
+//         {
+//           "nom": "Pau Serra",
+//           "edat": 17,
+//           "qualificacions": {
+//             "primer_trimestre": 6.5,
+//             "segon_trimestre": 7.0,
+//             "tercer_trimestre": 7.2
+//           }
+//         }
+//       ]
+//     }
+//   ]
+// }
+
+
+// En entorns de desenvolupament professional, 
+// s’utilitza la convenció 'snake_case' (amb guions baixos) 
+// o 'camelCase' (sense espais, però amb majúscules interiors) 
+// per a noms de propietats.
+// 
+// dades["primer trimestre"]  // OK
+// dades.primer_trimestre     // Més net i habitual
+// dades.primerTrimestre      // Més net i habitual
+// dades["primer-trimestre"]  // Funciona, no recomanable
+// dades.primer trimestre     // Error
+// dades.primer-trimestre     // NO funciona, intenta restar variables!
+
+
 
 
