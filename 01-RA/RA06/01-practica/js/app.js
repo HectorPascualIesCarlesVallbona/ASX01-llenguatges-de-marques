@@ -1,106 +1,52 @@
-const boto = document.getElementById("consultaBtn")
-boto.addEventListener("click", consultaTemps)
+const diesSetmana = ['Dilluns', 'Dimarts', 'Dimecres', 'Dijous', 'Divendres']
 
-function consultaTemps() {
-    const localitat = document.getElementById('localitat').value.trim()
-    const resultat = document.getElementById("resultat")
+// dia actual de la setmana que estem (modifcable)
+const currentDay = diesSetmana[0]
+const ButtonDay = document.querySelector('#buttonDay')
 
-    if (!localitat) {
-        resultat.innerHTML = "<p style='color:red;'>Introdueix una localitat.</p>"
-        return
-     }
+const buttonDiesSetmana = document.getElementById('listItemsButton')
+const llistatDies = document.querySelector('#llistat')
 
-    // per defecte utilitza el mètode HTTP GET si no s'especifica cap altre mètode
-    fetch(`https://exemple.com/api/temps/${localitat}`)
-        .then(res => {
-            if (!res.ok) throw new Error("Error en la resposta del servidor")
-            return res.json()
-        })
-        .then(dades => {
-            resultat.innerHTML = `
-                <h2>Temps a ${dades.localitat}</h2>
-                <ul>
-                    <li>Temperatura: ${dades.temperatura} ${dades.unitat}</li>
-                    <li>Condició: ${dades.condicio}</li>
-                    <li>Humitat: ${dades.humitat}%</li>
-                </ul>
-            `;
-        })
-        .catch(error => {
-            resultat.innerHTML = `<p style="color:red;">No s'han pogut obtenir dades: ${error.message}</p>`
-        });
+
+// 1. mostra els dies de la setmnana a la consola separat per linies o missatges
+ButtonDay.addEventListener('click', function() {
+  // evitar que ens mostri el missatge més d'una vegada
+  if (ButtonDay.classList.contains('active')) {
+    return
+  }
+
+  // iterem pels elements de l'array
+  for (let i=0; i<diesSetmana.length; i++) {
+ 
+    // mostrem un missatge segons el dia de la setmana que estam
+    if (currentDay === diesSetmana[0] ){
+      console.log('Estamos en lunes')
+    }
+    else if ( currentDay === diesSetmana[4]){
+      console.log('Es viernes!')
+    }
+    else{
+      console.log('ns')
+    }
+
+    // Afegim classe per evitar que ens mostri el missatge més d'una vegada
+    ButtonDay.classList.add('active')
 }
+})
 
+// 2. Escriu a l'html des de js els dies de la setmana dintre de l'element html amb id 'llistat'
+buttonDiesSetmana.addEventListener('click', addDays)
 
-// Simulació de la resposta del servidor
-// Aquesta part no es pot executar en un entorn real
-// i només es fa servir per a la demostració
-/*{
-  "localitat": "Barcelona",
-  "temperatura": 22,
-  "unitat": "°C",
-  "condicio": "Assolellat",
-  "humitat": 58
-}*/
-
-
-// Exemple de json multidimensional
-// {
-//   "cursos": [
-//     {
-//       "nom": "Matemàtiques",
-//       "professor": "Anna Puig",
-//       "alumnes": [
-//         {
-//           "nom": "Jordi Garcia",
-//           "edat": 17,
-//           "qualificacions": {
-//             "primer_trimestre": 8.5,
-//             "segon_trimestre": 7.8,
-//             "tercer_trimestre": 9.0
-//           }
-//         },
-//         {
-//           "nom": "Laia Roca",
-//           "edat": 16,
-//           "qualificacions": {
-//             "primer_trimestre": 9.2,
-//             "segon_trimestre": 8.9,
-//             "tercer_trimestre": 9.5
-//           }
-//         }
-//       ]
-//     },
-//     {
-//       "nom": "Història",
-//       "professor": "Marc Vidal",
-//       "alumnes": [
-//         {
-//           "nom": "Pau Serra",
-//           "edat": 17,
-//           "qualificacions": {
-//             "primer_trimestre": 6.5,
-//             "segon_trimestre": 7.0,
-//             "tercer_trimestre": 7.2
-//           }
-//         }
-//       ]
-//     }
-//   ]
-// }
-
-
-// En entorns de desenvolupament professional, 
-// s’utilitza la convenció 'snake_case' (amb guions baixos) 
-// o 'camelCase' (sense espais, però amb majúscules interiors) 
-// per a noms de propietats.
-// 
-// dades["primer trimestre"]  // OK
-// dades.primer_trimestre     // Més net, habitual
-// dades.primerTrimestre      // Més net, habitual
-// dades["primer-trimestre"]  // Funciona, no recomanable
-// dades.primer trimestre     // Error
-// dades.primer-trimestre     // NO funciona, intenta restar variables!
+function addDays () {
+  for (let i = 0; i < diesSetmana.length; i++) {
+    // creem element abans d'afegir al DOM
+    const li = document.createElement('li')
+    // afegim propietats a l'element creat
+    li.textContent = diesSetmana[i]
+    // afegim al DOM
+    llistat.appendChild(li) 
+  }
+}
 
 
 
