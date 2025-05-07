@@ -2,6 +2,9 @@
 
 ## Objectius
 
+Aquesta és una pràctica d'exploració i investigació sobre sistemes de gestió empresarial, concretament ERP (Enterprise Resource Planning) i CRM (Customer Relationship Management). 
+
+Els objectius són:
 - Comprendre què és un sistema ERP i CRM, les seves funcionalitats i mòduls principals.
 - Identificar diferències entre sistemes lliures i comercials.
 - Reconèixer els mecanismes d'accés segur i de gestió d'usuaris.
@@ -38,7 +41,7 @@
 - Cerca què és el model RBAC (Control d’Accés Basat en Rols) i explica-ho amb les teves paraules.
 - Posa un exemple aplicat a un ERP: per exemple, què pot fer un usuari del departament de comptabilitat i què no pot fer.
 
-### 6. Bonus (opcional): comparativa final
+### 6. Comparativa final
 - Fes una taula comparativa entre Odoo i Dolibarr on apareguin com a mínim:
   - Interfície i facilitat d’ús
   - Mòduls inclosos
