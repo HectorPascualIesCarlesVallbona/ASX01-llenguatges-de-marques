@@ -7,5 +7,5 @@
 - Rosi - Àlex
 - nagore-victor
 - manel-dani t
-- Alex Rodriguez-Abel
+- Alex Rodriguez-Abel-Camargo
 - Carlos, eric, osama
