@@ -1,5 +1,5 @@
 # Grupos de práctica
-- Hector Medina, Joel Herrero, Javier Diaz
+- Hector Medina, Joel Herrero, Javier Diaz del Bosque
 - Andrea - Àlex
 - Arnau Traveria - Daniel Garcia
 - hector.S ,alvaro

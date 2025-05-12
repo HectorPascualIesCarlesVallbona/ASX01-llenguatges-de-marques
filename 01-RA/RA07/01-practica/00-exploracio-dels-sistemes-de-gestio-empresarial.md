@@ -51,7 +51,7 @@ Els objectius són:
 
 ## Lliurament
 
-- 22-05-2025 | 23:59
+- 23-05-2025 | 23:59
 
 ## Avaluació (sobre 10)
 
